@@ -25,20 +25,19 @@ End the program.
 
 ## PROGRAM:
 ```
-#To write a python program for reading content from a CSV file.
+#Program for copying the contents from one file to another file
 #Developed by: KAMALESH R
-#Register Number: 212223230094
-
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+#RegisterNumber: 212223230094
+with open("text1.txt",'r') as fp:
+    msg1=fp.read()
+with open("copy.txt",'w') as fp1:
+    fp1.write(msg1)
 ```
 ### OUTPUT:
 
-![image](https://github.com/KAMALESHNITHYA/Copy-File/assets/145743119/5abd87e7-cd09-4d71-b733-abe739e59a11)
+![image](https://github.com/KAMALESHNITHYA/Copy-File/assets/145743119/cb1e8af3-f813-4924-a734-0f7d90a1a35f)
+![image](https://github.com/KAMALESHNITHYA/Copy-File/assets/145743119/31dcb7bc-5e6c-4fc6-9c10-8d89389aa781)
+![image](https://github.com/KAMALESHNITHYA/Copy-File/assets/145743119/98ed2ec4-f75c-4e24-ba79-25e5b71a6bb0)
 
 
 ## RESULT:
