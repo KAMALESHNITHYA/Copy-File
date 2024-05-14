@@ -6,22 +6,16 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Load the CSV into a DataFrame.
+Create a text file with some content in it.
 
-### Step 2: 
-Print the number of contents to be displayed using df.head().
- 
-### Step 3: 
-The number of rows returned is defined in Pandas option settings.
+### Step 2:
+Open the created text file.
 
-### Step 4:  
-Check your system's maximum column with the pd.options.display.max_column statement.
+### Step 3:
+Create another empty text file.
 
-### Step 5: 
-Increase the maximum number of rows to display the entire DataFrame
-
-### Step 6: 
-End the program.
+### Step 4:
+Copy the content of text file to empty file using write function.
 
 ## PROGRAM:
 ```
